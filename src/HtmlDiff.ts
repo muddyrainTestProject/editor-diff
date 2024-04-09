@@ -169,9 +169,9 @@ class HtmlDiff {
     if (diffType === 0) {
       return diffText;
     } else if (diffType === -1) {
-      return "<s style='color: #fd1a1c'>" + diffText + "</s>";
+      return "<s style='color: #fd1a1c;'>" + diffText + "</s>";
     } else {
-      return "<u style='color: #6efd3e'>" + diffText + "</u>";
+      return "<u style='color: #6efd3e;'>" + diffText + "</u>";
     }
   }
 }
